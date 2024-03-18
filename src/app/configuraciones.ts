@@ -1,0 +1,1 @@
+export const tiempoAlertas = 3000;

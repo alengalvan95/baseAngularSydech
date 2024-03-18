@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+// @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+
+.navbar-dark .navbar-nav .nav-link {
+  background-color: #0b231e !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.35) !important;
+  color: #d4c19c;
+  text-decoration: none;
+  outline: 0;
+}
+
+input.ng-invalid.ng-touched {
+  border: red 1px solid;
+}
+
+textarea.ng-invalid.ng-touched {
+  border: red 1px solid;
+}
+
+select.ng-invalid.ng-touched {
+  border: red 1px solid;
+}
+
+.error {
+  color: red;
+}
+
+.contenedor-custom {
+  border: 1px solid rgb(237, 237, 237);
+  padding: 10px;
+}
