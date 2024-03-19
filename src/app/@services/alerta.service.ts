@@ -19,7 +19,6 @@ export class alertaService {
     public ngOnInit() { }
 
     //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     public cambiarAlerta(valor: boolean, tipo: number, mensaje: string) {
         this.verAlerta$.next({ valor: valor, color: tipo, mensaje: mensaje })
         setTimeout(() => {
